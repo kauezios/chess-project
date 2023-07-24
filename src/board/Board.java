@@ -26,15 +26,15 @@ public class Board {
 	public void setColumns(int columns) {
 		this.columns = columns;
 	}
-	/*
+	
 	public Piece piece(int row, int columns) {
-		return;
+		return pieces[row][columns];
 	}
 	
 	public Piece piece(Position position) {
-		return;
+		return pieces[position.getRow()][position.getColumn()];
 	}
-	
+	/*
 	public void placePiece(Piece piece, Position position) {
 		
 	}
@@ -50,5 +50,5 @@ public class Board {
 	public boolean thereIsAPiece(Position position) {
 		return false;
 	}
-	 */
+	*/
 }
